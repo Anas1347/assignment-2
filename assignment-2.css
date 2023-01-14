@@ -11,18 +11,20 @@
 /* ------------
     Header
 -------------- */
+
 .header{
-    width: 100%;
     background-color: rgb(197, 218, 236);
    
 }
 .header-item{
+    width: 1200px;
     display: flex;
-    justify-content: space-around;
+    margin: auto;
+    justify-content: space-between;
     padding: 50px;
 }
 .header-title{
-    font-size: 20px;
+    font-size: 25px;
     
 }
 .list-item{
@@ -53,7 +55,7 @@ li a{
     padding: 20px;
     align-items: center;
 }
-.mid-items p{
+p {
     color: #727272;
 }
 .btn{
@@ -73,11 +75,9 @@ li a{
 /*............
    Section-1
  ............ */
-.section-1{
-   
-    
+main{
+    background-color: #dbd8cf;
 }
-
 .section-items{
     background-color: #dbd8cf;
     display: flex;
@@ -104,4 +104,141 @@ li a{
 .sec-p{
     color: #727272;
     margin-bottom: 20px;
+}
+/* ////////////////
+Section-2
+/////////////// */
+
+.section-2{
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.section-2-img img{
+    width: 500px;
+    
+}
+.section-2-title{
+    padding: 10px;
+    border-left: 3px solid crimson;
+    font-size: 30px;
+}
+.sec-2-pera{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.section-2-items{
+    width: 600px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px ;
+    border-radius: 10px;
+
+}
+.btn-2{
+    width: 200px;
+    height: 100px;
+    transform: translate(1050px, -130px);
+    background-color: rgb(248, 148, 16);
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+/*--------------
+    Section-3 
+ --------------*/
+ .section-3-title{
+    width: 1100px;
+    margin: auto;
+  padding: 50px;
+    
+ }
+ .section-3-item{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   gap: 50px;
+    
+ }
+ .section-3-title p{
+    margin-top: 20px;
+ }
+ .section-logo{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    box-shadow: 0 0 5px;
+    border-radius: 5px;
+    padding: 40px;
+    white-space: nowrap;
+    transition: transform 2s;
+ }
+ .section-logo:hover{
+    
+    transform: rotate(360deg);
+ }
+ /* ............
+ Footer
+ .............. */
+ .footer{
+    padding: 50px;
+    margin-top: 100px;
+ }
+ .footer-art{
+text-align: center;
+margin-bottom: 20px;
+ }
+ .footer-title{
+    font-size: 30px;
+    font-weight: 1200;
+    margin-bottom: 15px;
+ }
+ .logos{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    filter: grayscale(100%);
+ }
+ .footer-pa{
+    width: 1200px;
+    height: 60px;
+    margin: auto;
+    background-color: rgb(135, 245, 245);
+    text-align: center;
+    padding: 20px;
+ }
+ @media only screen and (max-width:576px) {
+    .header-item, .list-item{
+        width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+ }
+ .list-item{
+    margin-top: 10px;
+ }
+.list{
+padding: 15px;
+}
+.mid-item{
+    width: 100%;
+    flex-direction: column-reverse;
+}
+.mid-items img{
+    width: 100%;
+}
+.section-image{
+   
+    grid-template-columns: repeat(1,1fr);
+}
+.section-items{
+    background-color: #dbd8cf;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
 }
