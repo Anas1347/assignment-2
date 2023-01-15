@@ -246,6 +246,9 @@ margin-bottom: 20px;
     padding: 30px;
     filter: grayscale(100%);
  }
+ .logo{
+    width: 100px;
+ }
  .footer-pa{
     width: 1200px;
     height: 60px;
@@ -256,14 +259,13 @@ margin-bottom: 20px;
     border-radius: 10px;
  }
  @media only screen and (max-width:576px) {
+   
     .header-item, .list-item{
         width: 100%;
       display: flex;
       flex-direction: column;
  }
- .section-1-title{
-    margin-top: 0;
- }
+ 
  .list-item{
     margin-top: 10px;
  }
@@ -303,8 +305,7 @@ padding: 15px;
    
 }
 .section-2-item{
-    padding: 30px;
-    width: 400px;
+    width: 350px;
 }
 .btn-2{
     margin-left: 70px;
@@ -356,7 +357,7 @@ margin-bottom: 20px;
     
 }
 .logo img{
-    width: 200px;
+    width: 150px;
     padding: 20px;
 }
 .footer-pa{
@@ -407,8 +408,7 @@ padding: 15px;
    
 }
 .section-2-item{
-    padding: 30px;
-    width: 400px;
+    width: 350px;
 }
 .section-2-img img{
     padding-left: 20px;
